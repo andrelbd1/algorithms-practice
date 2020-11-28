@@ -54,13 +54,22 @@ def buildOffices(before, w, h, row, col, area):
 
     return minDist
 
-def findMinDistance(w, h, n):    
+def findMinDistance(w, h, n):
     area=[]
     for i in range(w):
         area.append([-1 for j in range(h)])
 
     return buildOffices(n,w,h,0,0,area)
 
+#Input Samples
+# Input 1
 findMinDistance(4,4,3) #2
+print("")
+
+# Input 2
 findMinDistance(2,3,2) #1
+print("")
+
+# Input 3
 findMinDistance(5,1,1) #2
+print("")
