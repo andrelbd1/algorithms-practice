@@ -8,7 +8,7 @@
     - O(n)
     - O(n) using partition in sequence with a pivot resulted by:
 
-    ![alt text](knapsack/pivot.png?raw=true)
+    ![alt text](solutions/knapsack/pivot.png?raw=true)
     
 - Instance format:
     - n: number of elements
@@ -36,8 +36,8 @@
         Time: T
 ````
 
-- [Solution](knapsack/Knapsack.cpp)
-- [Running](knapsack/README.md)
+- [Solution](solutions/knapsack/Knapsack.cpp)
+- [Running](solutions/knapsack/README.md)
 
 ### Interval Scheduling
 - Given a set of lectures L={l1, ... ln } such that each lecture is defined by its start time and duration. The goal is present maximum number of lectures without any interval conflict.
@@ -52,7 +52,7 @@
         max_lectures
 ````
 
-- [Solution](interval-scheduling/code.py)
+- [Solution](solutions/interval-scheduling/code.py)
 
 ### Shortest Path for Buildings
 - Given a grid with w as width, h as height. Each cell of the grid represents a potential building lot and we will be adding "n" buildings inside this grid. The goal is for the furthest of all lots to be as near as possible to a building. Given an input n, which is the number of buildings to be placed in the lot, determine the building placement to minimize the distance the most distant empty lot is from the building. Movement is restricted to horizontal and vertical i.e. diagonal movement is not required.
@@ -77,4 +77,4 @@
         max_value
 ````
 
-- [Solution](buildings/build.py)
+- [Solution](solutions/buildings/build.py)
