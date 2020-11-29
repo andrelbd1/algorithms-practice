@@ -659,7 +659,7 @@ main (int argc, char **argv)
         break;
 
       default:
-        printf ("Questao invalida\n");
+        printf ("Error to select method\n");
         break;
     }
       
@@ -674,5 +674,5 @@ main (int argc, char **argv)
     
   printf("Time: %f\nk=%d total: %lf\n\n", totalTimer_.getCPUTotalSecs()/k, k, totalTimer_.getCPUTotalSecs() );
 
-  return 0;
+  return 1;
 }

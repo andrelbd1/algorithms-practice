@@ -1,4 +1,5 @@
-# Algorithm Problems
+# Algorithm Problems and Solutions
+- List of algorithm problems and solutions using C, C++ and Python.
 
 ### Fractional Knapsack
 - Given weights and values of n items, we need to put these items in a knapsack of capacity W to get the maximum total value in the knapsack. 
@@ -9,7 +10,7 @@
     - O(n) using partition in sequence with a pivot resulted by:
 
     ![alt text](solutions/knapsack/pivot.png?raw=true)
-    
+
 - Instance format:
     - n: number of elements
     - vj: value of j object 
@@ -38,6 +39,35 @@
 
 - [Solution](solutions/knapsack/Knapsack.cpp)
 - [Running](solutions/knapsack/README.md)
+
+### Polynomial Multiplication
+- Given two polynomials, present an algorithm to multiplicate them. Since input is n+1 coefficients of each polynomial of n degree, as well as output is 2n + 1 coefficients from resulted polynomial.
+- Develop a solution using:
+    - trivial multiplication
+    - divide and conquer
+    - Fast Fourier Transform
+
+- **Input**:
+````bash
+        n
+        i0 i1 ... in
+        j0 j2 ... jn
+````
+
+- **Output**:
+````bash
+        Trivial
+        result
+
+        Divide-n-Conquer
+        result
+
+        Fast Fourier Transform
+        result
+````
+
+- [Solution](solutions/polynomial-multiplication/algorithms.c)
+- [Running](solutions/polynomial-multiplication/README.md)
 
 ### Interval Scheduling
 - Given a set of lectures L={l1, ... ln } such that each lecture is defined by its start time and duration. The goal is present maximum number of lectures without any interval conflict.
