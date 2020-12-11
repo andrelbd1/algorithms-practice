@@ -1,33 +1,19 @@
-### Polynomial Multiplication
-- Given two polynomials, present an algorithm to multiplicate them. Since input is n+1 coefficients of each polynomial of n degree, as well as output is 2n + 1 coefficients from resulted polynomial.
-- Develop a solution using:
-    - trivial multiplication
-    - divide and conquer
-    - Fast Fourier Transform
+### Interval Scheduling
+- Given a set of lectures L={l1, ... ln } such that each lecture is defined by its start time and duration. The goal is present maximum number of lectures without any interval conflict.
 
 - **Input**:
 ````bash
-        n
-        i0 i1 ... in
-        j0 j2 ... jn
+        [start 1, ... start n] [duration 1, ... duration n]
 ````
 
 - **Output**:
 ````bash
-        Trivial
-        result
-
-        Divide-n-Conquer
-        result
-
-        Fast Fourier Transform
-        result
+        max_lectures
 ````
 
-- [Solution](algorithms.c)
+- [Solution](code.py)
 
 #### Running
-- Running a instance:
 ````bash
     python code.py
 ````
