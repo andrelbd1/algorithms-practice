@@ -1,5 +1,5 @@
 # Interval Scheduling
-from operator import attrgetter
+from operator import attrgetter, itemgetter
 
 def indexSort(arr, indices): #Sorting
     for col in reversed(indices):
