@@ -1,5 +1,9 @@
-# Algorithm Problems and Solutions
-- List of algorithm problems and solutions using C, C++ and Python.
+# Algorithm, Problems and Solutions
+- List of classical algorithms.
+
+### [Chained List](solutions/chained-list/list.cpp)
+
+- List of algorithm, problems and solutions using C, C++ and Python.
 
 ### [Sales by Match](solutions/sales-by-match/README.md)
 
