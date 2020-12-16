@@ -32,7 +32,7 @@
     ./app "path_instance"
 ````
 
-- Example: running a instance "input_simple1.dat":
+- Example: running a instance "input1":
 ````bash
     ./app instances/input1
 ````

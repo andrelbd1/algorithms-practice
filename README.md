@@ -3,9 +3,11 @@
 
 - [Chained List](solutions/chained-list/list.cpp)
 
-### List of algorithm, problems and solutions using C, C++ and Python.
+### List of problems and solutions using C, C++ and Python.
 
 - [Sales by Match](solutions/sales-by-match/README.md)
+
+- [Counting Valleys](solutions/counting-valleys/README.md)
 
 - [Fractional Knapsack](solutions/knapsack/README.md)
 
