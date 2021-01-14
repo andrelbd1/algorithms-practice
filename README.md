@@ -2,6 +2,7 @@
 ### List of classical algorithms.
 
 - [Chained List](solutions/chained-list/list.cpp)
+- [Heapsort](solutions/heapsort/README.md)
 
 ### List of problems and solutions using C, C++ and Python.
 
