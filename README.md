@@ -19,3 +19,5 @@
 - [Counting Valleys](solutions/counting-valleys/README.md)
 
 - [Sales by Match](solutions/sales-by-match/README.md)
+
+- [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md)
