@@ -23,3 +23,5 @@
 - [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md)
 
 - [Repeated String](solutions/repeated-string/README.md)
+
+- [2D Arrays - DS](solutions/2d-arrays-ds/README.md)
