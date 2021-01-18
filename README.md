@@ -27,3 +27,5 @@
 - [2D Arrays - DS](solutions/2d-arrays-ds/README.md)
 
 - [Left Rotation](solutions/left-rotation/README.md)
+
+- [New Year Chaos](solutions/new-year-chaos/README.md) 
