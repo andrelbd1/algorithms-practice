@@ -29,3 +29,5 @@
 - [Left Rotation](solutions/left-rotation/README.md)
 
 - [New Year Chaos](solutions/new-year-chaos/README.md) 
+
+- [Minimum Swaps 2](solutions/minimum-swaps-2/README.md) 
