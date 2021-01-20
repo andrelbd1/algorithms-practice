@@ -5,77 +5,77 @@ using namespace std;
 void
 minimumBribes(vector<int> q)
 {   
-    int count = 0;
-    
-    for (int i=0; i<q.size(); i++)
-    {
-        if (q[i]-(i+1) > 2)
-        {
-            cout << "Too chaotic" << "\n";
-            return;
-        }
-        
-        for (int j=max(0,q[i]-2); j < i; j++)
-            if (q[j] > q[i])
-                count++;
-    }
+   int count = 0;
 
-    cout << count << "\n";
+   for (int i=0; i<q.size(); i++)
+   {
+      if (q[i]-(i+1) > 2)
+      {
+         cout << "Too chaotic" << "\n";
+         return;
+      }
+        
+      for (int j=max(0,q[i]-2); j < i; j++)
+         if (q[j] > q[i])
+            count++;
+   }
+
+   cout << count << "\n";
 }
 
 int
 main(int argc, char **argv)
 {
-	if (argc==1)
-	    return 0;
+   if (argc==1)
+	   return 0;
 
-    ifstream filein (argv[1]);
+   ifstream filein (argv[1]);
 
-	string line;
-	string delimiter = " ";
-    int t;
+   string line;
+   string delimiter = " ";
+   int t;
 	int n;
 
-	if (filein.is_open())
-    {
-	    size_t pos = 0;
-		string token;
+   if (filein.is_open())
+   {
+	   size_t pos = 0;
+      string token;
 		
-        getline ( filein, line );
+      getline ( filein, line );
 		string s = line;
-        t=stoi(s);
+      t=stoi(s);
 
-        for (int i=0; i < t; i++)
-        {
-            getline ( filein, line );
-		    string s = line;
-            n=stoi(s);
+      for (int i=0; i < t; i++)
+      {
+         getline ( filein, line );
+		   string s = line;
+         n=stoi(s);
                     
-	        vector<int> arr(n);
+	      vector<int> arr(n);
             
-            getline ( filein, line );
-		    s = line;
+         getline ( filein, line );
+		   s = line;
             
-            int j=0;
+         int j=0;
 		    
-            while ((pos = s.find(delimiter)) != string::npos)
-            {
-			    token = s.substr(0, pos);
-			    s.erase(0, pos+delimiter.length());
+         while ((pos = s.find(delimiter)) != string::npos)
+         {
+			   token = s.substr(0, pos);
+			   s.erase(0, pos+delimiter.length());
 
-                arr[j]=stoi(token);
-			    j++;
-            }
+            arr[j]=stoi(token);
+			   j++;
+         }
             
-            minimumBribes(arr);
-        }
+         minimumBribes(arr);
+      }
 
-        filein.close();
-	}
+      filein.close();
+   }
 	else
 	{
-	    cout << "Unable to open file";
-        return 0;
+	   cout << "Unable to open file";
+      return 0;
 	}
 	
 	return 0;
