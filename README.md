@@ -33,3 +33,5 @@
 - [Minimum Swaps 2](solutions/minimum-swaps-2/README.md) 
 
 - [Array Manipulation](solutions/array-manipulation/README.md) 
+
+- [Ransom Note](solutions/ransom-note/README.md) 
