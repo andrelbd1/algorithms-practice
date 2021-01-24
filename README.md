@@ -2,7 +2,6 @@
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
-[![GitHub stars](https://img.shields.io/github/stars/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms)
 
 
 ### List of classical algorithms.
