@@ -1,4 +1,11 @@
 # Algorithm, Problems and Solutions
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
+[![GitHub commit activity the past week, 4 weeks, year](https://img.shields.io/github/commit-activity/y/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
+[![GitHub stars](https://img.shields.io/github/stars/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms)
+
+
 ### List of classical algorithms.
 
 - [Chained List](solutions/chained-list/list.cpp)
