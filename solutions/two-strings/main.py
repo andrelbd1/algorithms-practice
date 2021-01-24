@@ -3,7 +3,6 @@ import os
 import random
 import re
 import sys
-from collections import defaultdict
 
 
 def twoStrings(s1, s2):
