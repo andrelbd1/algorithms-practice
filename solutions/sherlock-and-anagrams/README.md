@@ -7,12 +7,6 @@
 ````
     - The list of all anagrammatic pairs is [m, m], [mo, om] at positions [[0],[2]], [[0,1],[1,2]] respectively.
 
-````bash
-        s1='be'
-        s2='cat'
-````
-    - These do not share a substring.
-
 - Instance format:
     - The first line contains a single integer q, the number of queries.
     - Each of the next q lines contains a string s to analyze.
