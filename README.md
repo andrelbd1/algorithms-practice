@@ -46,3 +46,5 @@
 - [Sherlock and Anagrams](solutions/sherlock-and-anagrams/README.md) 
 
 - [Count Triplets](solutions/count-triplets/README.md) 
+
+- [Frequency Queries](solutions/frequency-queries/README.md) 
