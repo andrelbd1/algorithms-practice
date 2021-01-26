@@ -1,4 +1,4 @@
-### Repeated String
+### [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem)
 - There is a string, s, of lowercase English letters that is repeated infinitely many times. Given an integer, n, find and print the number of letter a's in the first n letters of the infinite string.  Return the frequency of a in the substring.
 
 - Example

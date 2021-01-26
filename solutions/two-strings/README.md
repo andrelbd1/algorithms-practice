@@ -1,4 +1,4 @@
-### Two Strings
+### [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem)
 - Given two strings, determine if they share a common substring. A substring may be as small as one character.
 
 - Example:

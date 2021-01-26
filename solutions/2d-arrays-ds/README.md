@@ -1,4 +1,4 @@
-### 2D Array - DS
+### [2D Array - DS](https://www.hackerrank.com/challenges/2d-array/problem)
 - Given 6x6 2D Array, arr:
 ````bash
         1 1 1 0 0 0
