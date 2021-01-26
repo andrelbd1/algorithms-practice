@@ -44,3 +44,5 @@
 - [Two Strings](solutions/two-strings/README.md) 
 
 - [Sherlock and Anagrams](solutions/sherlock-and-anagrams/README.md) 
+
+- [Count Triplets](solutions/count-triplets/README.md) 
