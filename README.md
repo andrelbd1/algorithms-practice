@@ -8,6 +8,7 @@
 
 - [Chained List](solutions/chained-list/list.cpp)
 - [Heapsort](solutions/heapsort/README.md)
+- [Binary Search Tree](solutions/binary-search-tree/bst.py)
 
 ### List of problems and solutions using C, C++ and Python.
 
