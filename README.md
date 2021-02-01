@@ -49,3 +49,5 @@
 - [Count Triplets](solutions/count-triplets/README.md) 
 
 - [Frequency Queries](solutions/frequency-queries/README.md) 
+
+- [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md)  
