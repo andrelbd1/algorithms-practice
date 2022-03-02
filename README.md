@@ -50,4 +50,6 @@
 
 - [Frequency Queries](solutions/frequency-queries/README.md) 
 
-- [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md)  
+- [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md) 
+
+- [Leap Day](solutions/leap-day/README.md) 
