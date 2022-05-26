@@ -36,3 +36,7 @@
 - [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md)
 - [Leap Day](solutions/leap-day/README.md)
 - [Kangaroo](solutions/kangaroo/README.md)
+
+#### From [LeetCode](https://leetcode.com/andrelbd1/).
+
+- [shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md))
