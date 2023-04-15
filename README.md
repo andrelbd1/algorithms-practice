@@ -6,7 +6,7 @@
 
 ### List of classical algorithms.
 
-- [Chained List](solutions/chained-list/list.cpp)
+- [Chained List](solutions/linked-list/README.md)
 - [Heapsort](solutions/heapsort/README.md)
 - [Binary Search Tree](solutions/binary-search-tree/bst.py)
 - [Breadth First Search - BFS](solutions/breadth-first-search/bfs.py)
