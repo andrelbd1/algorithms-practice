@@ -10,6 +10,8 @@ graph = {
    "g" : ["f"]
 }
 
+print('Graph: ', graph)
+
 instance = BFS(graph)
 
 assert instance.bfs(root="a",value="e") == "e"

@@ -9,8 +9,8 @@
 - [Linked List](solutions/linked-list/README.md)
 - [Heapsort](solutions/heapsort/README.md)
 - [Binary Search Tree](solutions/binary-search-tree/bst.py)
-- [Breadth First Search - BFS](solutions/breadth-first-search/bfs.py)
-- [Depth First Search - DFS](solutions/depth-first-search/dfs.py)
+- [Breadth First Search - BFS](solutions/breadth-first-search/README.md)
+- [Depth First Search - DFS](solutions/depth-first-search/README.md)
 
 ### List of problems and solutions using C, C++ and Python.
 
