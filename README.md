@@ -9,6 +9,8 @@
 - [Chained List](solutions/chained-list/list.cpp)
 - [Heapsort](solutions/heapsort/README.md)
 - [Binary Search Tree](solutions/binary-search-tree/bst.py)
+- [Breadth First Search - BFS](solutions/breadth-first-search/bfs.py)
+- [Depth First Search - DFS](solutions/depth-first-search/dfs.py)
 
 ### List of problems and solutions using C, C++ and Python.
 
@@ -39,4 +41,4 @@
 
 #### From [LeetCode](https://leetcode.com/andrelbd1/).
 
-- [shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md))
+- [shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md)
