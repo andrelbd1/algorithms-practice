@@ -32,12 +32,12 @@
     $ make
 ````
 
-- Running a instance:
+- Running an instance:
 ````bash
     ./polymul "path_instance"
 ````
 
-- Example: running a instance "input_simple1.dat":
+- Example: running an instance "input_simple1.dat":
 ````bash
     ./polymul instances/input_simple1.dat
 ````

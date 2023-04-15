@@ -36,12 +36,12 @@ Return the length of the shortest path for you to reach any food cell. If there 
 - [Solution](main.py)
 
 #### Running
-- Running a instance:
+- Running an instance:
 ````bash
     python main.py "path_instance"
 ````
 
-- Example: running a instance "input1":
+- Example: running an instance "input1":
 ````bash
     python main.py instances/input1
 ````

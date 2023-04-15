@@ -27,12 +27,12 @@
     source configure.sh
 ````
 
-- Running a instance:
+- Running an instance:
 ````bash
     ./app "path_instance"
 ````
 
-- Example: running a instance "input1":
+- Example: running an instance "input1":
 ````bash
     ./app instances/input1
 ````

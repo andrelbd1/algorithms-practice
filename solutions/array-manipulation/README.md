@@ -50,12 +50,12 @@ index->	 1 2 3  4  5 6 7 8 9 10
     source configure.sh
 ````
 
-- Running a instance:
+- Running an instance:
 ````bash
     ./app "path_instance"
 ````
 
-- Example: running a instance "input1":
+- Example: running an instance "input1":
 ````bash
     ./app instances/input1
 ````

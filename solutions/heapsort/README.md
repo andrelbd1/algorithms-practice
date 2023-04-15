@@ -16,7 +16,7 @@
 ````
 - **Output**:
 ````bash
-        Sorted items  by value
+        Sorted items by value
 ````
 
 - [Solution](Heapsort.cpp)
@@ -27,17 +27,17 @@
     source configure.sh
 ````
 
-- Running a instance:
+- Running an instance:
 ````bash
     ./Heapsort "path_instance"
 ````
 
-- Example: running a instance "lst_500.in":
+- Example: running an instance "lst_500.in":
 ````bash
     ./Heapsort instances/lst_500.in
 ````
 
-- Example: running a instance "lst_1000.in":
+- Example: running an instance "lst_1000.in":
 ````bash
     ./Heapsort instances/lst_1000.in
 ````
