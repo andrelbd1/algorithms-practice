@@ -10,3 +10,4 @@ assert tree.root.value == 50
 assert tree.search(25).left.value == 10
 assert tree.search(75).right.value == 90
 assert tree.search(10).left is None
+assert tree.checkBST() == True
