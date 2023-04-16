@@ -4,7 +4,7 @@
 - [Solution](dfs.py)
 
 #### Running
- Running with an instance included:
+- Running with an instance included:
 ````bash
     python instance.py 
 ````
