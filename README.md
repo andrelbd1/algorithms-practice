@@ -8,7 +8,7 @@
 
 - [Linked List](solutions/linked-list/README.md)
 - [Heapsort](solutions/heapsort/README.md)
-- [Binary Search Tree](solutions/binary-search-tree/bst.py)
+- [Binary Search Tree](solutions/binary-search-tree/README.md)
 - [Breadth First Search - BFS](solutions/breadth-first-search/README.md)
 - [Depth First Search - DFS](solutions/depth-first-search/README.md)
 
