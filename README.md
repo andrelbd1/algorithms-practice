@@ -46,4 +46,4 @@
 ### Python tips
 
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
-
+- [Debugging with pdb](python_utils/pdb/README.md)
