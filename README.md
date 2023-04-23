@@ -1,4 +1,4 @@
-# Algorithm, Problems and Solutions
+# Algorithms, Problems and Solutions
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
@@ -19,7 +19,7 @@
 - [Interval Scheduling](solutions/interval-scheduling/README.md)
 - [Shortest Path for Buildings](solutions/buildings/README.md)
 
-#### From [HackerRank](https://www.hackerrank.com/andrelbd1).
+### From [HackerRank](https://www.hackerrank.com/andrelbd1).
 
 - [Counting Valleys](solutions/counting-valleys/README.md)
 - [Sales by Match](solutions/sales-by-match/README.md)
@@ -39,6 +39,11 @@
 - [Leap Day](solutions/leap-day/README.md)
 - [Kangaroo](solutions/kangaroo/README.md)
 
-#### From [LeetCode](https://leetcode.com/andrelbd1/).
+### From [LeetCode](https://leetcode.com/andrelbd1/).
 
-- [shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md)
+- [Shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md)
+
+### Python tips
+
+- [List Comprehension](https://github.com/andrelbd1/algorithms-practice/blob/master/list_comprehension.html)
+
