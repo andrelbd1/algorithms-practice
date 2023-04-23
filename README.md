@@ -45,5 +45,5 @@
 
 ### Python tips
 
-- [List Comprehension](https://github.com/andrelbd1/algorithms-practice/blob/master/list_comprehension.html)
+- [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 
