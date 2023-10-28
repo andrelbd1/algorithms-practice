@@ -4,7 +4,7 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 
 
-### List of classical algorithms.
+### List of classical algorithms
 
 - [Linked List](solutions/linked-list/README.md)
 - [Heapsort](solutions/heapsort/README.md)
@@ -12,14 +12,14 @@
 - [Breadth First Search - BFS](solutions/breadth-first-search/README.md)
 - [Depth First Search - DFS](solutions/depth-first-search/README.md)
 
-### List of problems and solutions using C, C++ and Python.
+### List of problems and solutions using C, C++ and Python
 
 - [Fractional Knapsack](solutions/knapsack/README.md)
 - [Polynomial Multiplication](solutions/polynomial-multiplication/README.md)
 - [Interval Scheduling](solutions/interval-scheduling/README.md)
 - [Shortest Path for Buildings](solutions/buildings/README.md)
 
-### From [HackerRank](https://www.hackerrank.com/andrelbd1).
+### From [HackerRank](https://www.hackerrank.com/andrelbd1)
 
 - [Counting Valleys](solutions/counting-valleys/README.md)
 - [Sales by Match](solutions/sales-by-match/README.md)
@@ -39,7 +39,7 @@
 - [Leap Day](solutions/leap-day/README.md)
 - [Kangaroo](solutions/kangaroo/README.md)
 
-### From [LeetCode](https://leetcode.com/andrelbd1/).
+### From [LeetCode](https://leetcode.com/andrelbd1/)
 
 - [Shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md)
 
