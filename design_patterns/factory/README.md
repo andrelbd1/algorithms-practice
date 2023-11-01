@@ -9,13 +9,19 @@ Em programação orientada a objetos, o termo fábrica (factory) refere-se a uma
 
 #### Padrão Simple Factory
 - Permite que as interfaces criem objetos sem expor a lógica de sua criação.
-- No trecho de código a seguir, criamos um produto Abstract chamado Animal. Animal é uma classe-base abstrata (ABCMeta é a metaclasse especial de Python para criar uma classe `Abstract`) e tem o método `do_say()`.
+- No código a seguir, criamos um produto Abstract chamado Animal. Animal é uma classe-base abstrata (ABCMeta é a metaclasse especial de Python para criar uma classe `Abstract`) e tem o método `do_say()`.
 - Criamos dois produtos (Cat e Dog) a partir da interface Animal e implementamos `do_say()` com os sons apropriados produzidos por esses animais. ForestFactory é uma fábrica que tem o método `make_sound()`. De acordo com o tipo de argumento passado pelo cliente, uma instância apropriada de Animal será criada em tempo de execução.
 - [Code](simple_factory.py)
 
 
 #### Padrão Factory Method
 - Permite que as interfaces criem objetos, mas adia a decisão para que as subclasses determinem a classe para a criação do objeto.
+- Definimos uma interface para criar objetos, mas, em vez de a fábrica ser responsável pela criação dos objetos, a responsabilidade é passada para a subclasse, que decidirá a classe a ser instanciada.
+- A criação do Factory Method não é feita por instanciação, mas por herança.
+- O Factory Method deixa o design mais personalizável. Ele pode devolver a mesma instância ou subclasse no lugar de um objeto de determinado tipo (como no método de Simple Factory).
+- No código a seguir, imagine que gostaríamos de criar perfis de tipos diferentes em redes sociais como LinkedIn e Facebook para uma pessoa ou uma empresa. Cada um desses perfis deve ter determinadas seções. No LinkedIn, você teria uma seção de patentes que um indivíduo requisitou ou publicações que ele(a) escreveu. No Facebook, você verá seções para um álbum de fotos de uma viagem recente que você fez em um feriado. Além do mais, nesses dois perfis, haveria uma seção comum de informações pessoais. Portanto, resumindo, queremos criar perfis de tipos diferentes com as seções corretas adicionadas ao perfil.
+- [Code](factory_method.py)
+
 
 #### Padrão Abstract Factory
 - Uma Abstract Factory é uma interface para criar objetos relacionados sem especificar/expor suas classes; o padrão fornece objetos de outra fábrica que, internamente, cria outros objetos.
