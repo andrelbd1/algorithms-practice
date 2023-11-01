@@ -51,3 +51,4 @@
 ### Design Patterns
 
 - [Singleton](design_patterns/singleton/README.md)
+- [Factory](design_patterns/factory/README.md)
