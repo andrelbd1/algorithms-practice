@@ -6,7 +6,6 @@ Em programação orientada a objetos, o termo fábrica (factory) refere-se a uma
 - A fábrica também pode reutilizar objetos existentes. Por outro lado, se o cliente criar objetos diretamente, um novo objeto sempre será criado.
 
 
-
 #### Padrão Simple Factory
 - Permite que as interfaces criem objetos sem expor a lógica de sua criação.
 - No código a seguir, criamos um produto Abstract chamado Animal. Animal é uma classe-base abstrata (ABCMeta é a metaclasse especial de Python para criar uma classe `Abstract`) e tem o método `do_say()`.
@@ -25,4 +24,6 @@ Em programação orientada a objetos, o termo fábrica (factory) refere-se a uma
 
 #### Padrão Abstract Factory
 - Uma Abstract Factory é uma interface para criar objetos relacionados sem especificar/expor suas classes; o padrão fornece objetos de outra fábrica que, internamente, cria outros objetos.
-
+- Enquanto o Factory Method adia a criação da instância para as subclasses, o objetivo do método Abstract Factory é criar famílias de objetos relacionados. Com efeito, os padrões Abstract Factory garantem que o cliente esteja isolado da criação dos objetos, mas permite que ele utilize os objetos criados. O cliente tem a capacidade de acessar os objetos somente por meio de uma interface. Se os produtos de uma família tiverem de ser usados, o padrão Abstract Factory ajudará o cliente a utilizar os objetos de uma família de cada vez.
+- No código a seguir, suponha que criamos uma pizzaria em que são servidas pizzas indianas e americanas deliciosas. Para isso, inicialmente criamos uma classe-base abstrata `PizzaFactory`. A classe `PizzaFactory` tem dois métodos abstratos, `createVegPizza()` e `createNonVegPizza()`, que devem ser implementados por ConcreteFactory. Nesse exemplo, criamos duas fábricas concretas, que são `IndianPizzaFactory` e `USPizzaFactory`.
+- [Code](abstract_factory.py)
