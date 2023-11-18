@@ -53,3 +53,4 @@
 - [Singleton](design_patterns/singleton/README.md)
 - [Factory](design_patterns/factory/README.md)
 - [Façade](design_patterns/facade/README.md)
+- [Proxy](design_patterns/proxy/README.md)
