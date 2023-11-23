@@ -16,5 +16,7 @@ Vamos considerar o caso de uma agência de notícias a fim de demonstrar o cená
 
 - [Code](real.py)
 
-
-
+O padrão Observer possibilita um design de objetos em que o Subject e o Observer têm baixo acoplamento. Designs com baixo acoplamento nos permitem construir sistemas orientados a objetos flexíveis, capazes de lidar com mudanças, pois reduzem a dependência entre vários objetos. A arquitetura com baixo acoplamento garante as seguintes características:
+- reduz o risco de que uma mudança em um elemento possa gerar um impacto imprevisto em outros elementos;
+- simplifica os testes, a manutenção e a resolução de problemas;
+- o sistema pode ser facilmente separado em elementos definidos.
