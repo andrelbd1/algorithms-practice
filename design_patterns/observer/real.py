@@ -32,7 +32,7 @@ class Subscriber(metaclass=ABCMeta):
         pass
 
 
-class SMSSubscriber:
+class SMSSubscriber(Subscriber):
     def __init__(self,publisher):
         self.publisher = publisher
         self.publisher.attach(self)
@@ -41,7 +41,7 @@ class SMSSubscriber:
         print(type(self).__name__, self.publisher.getNews())
 
 
-class EmailSubscriber:
+class EmailSubscriber(Subscriber):
     def __init__(self,publisher):
         self.publisher = publisher
         self.publisher.attach(self)
@@ -50,7 +50,7 @@ class EmailSubscriber:
         print(type(self).__name__, self.publisher.getNews())
 
 
-class AnyOtherSubscriber:
+class AnyOtherSubscriber(Subscriber):
     def __init__(self,publisher):
         self.publisher = publisher
         self.publisher.attach(self)
