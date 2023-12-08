@@ -11,7 +11,7 @@ Há três participantes principais nesse padrão:
 - Subject: oferece uma representação tanto para RealSubject quanto para Proxy. Como Proxy e RealSubject implementam Subject, Proxy pode ser usado em qualquer lugar que RealSubject seja esperado.
 - RealSubject: define o objeto real representado pelo Proxy.
 
-O código a seguir representa uma situação onde voê foi ao shopping center e gostaria de comprar uma camisa.
+O código a seguir representa uma situação onde você foi ao shopping center e gostaria de comprar uma camisa.
 - O seu comportamento é representado pela classe You – o cliente.
 - Para comprar a camisa, o método make_payment() é fornecido pela classe.
 - O método especial \_\_init\_\_() chama o Proxy e o instancia.

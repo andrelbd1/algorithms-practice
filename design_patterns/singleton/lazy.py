@@ -12,7 +12,7 @@ class LazySingleton:
     def getInstance(cls):
         if not cls.__instance:
             cls.__instance = LazySingleton()
-        
+
         return cls.__instance
 
 s=LazySingleton()

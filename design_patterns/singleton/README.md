@@ -4,11 +4,11 @@
 - Controlar o acesso concorrente a recursos compartilhados.
 
 #### Classic Singleton
-- No Classic Singleton, sobrescrevemos o método __new__ (método especial de Python para instanciar objetos) para controlar a criação do objeto. O objeto s é criado com o método __new__, mas antes disso é feita uma verificação para saber se o objeto já existe. O método hasattr (método especial de Python para saber se um objeto tem determinada propriedade) é usado para verificar se o objeto cls tem a propriedade instance, que confere se a classe já tem um objeto. No momento em que o objeto s1 é solicitado, hasattr() detecta que um objeto já existe e, então, s1 aloca a instância do objeto existente.
+- No Classic Singleton, sobrescrevemos o método __new__ (método especial de Python para instanciar objetos) para controlar a criação do objeto. O objeto é criado com o método __new__, mas antes disso é feita uma verificação para saber se o objeto já existe. O método hasattr (método especial de Python para saber se um objeto tem determinada propriedade) é usado para verificar se o objeto cls tem a propriedade instance, que confere se a classe já tem um objeto. No momento em que o objeto s1 é solicitado, hasattr() detecta que um objeto já existe e, então, s1 aloca a instância do objeto existente.
 - [Code](classic.py)
 
 #### Lazy Singleton
-- No LazySingleton, quando fazemos s=Singleton(), o método __init__ é chamado, mas nenhum objeto novo é criado. Entretanto a criação propriamente dita do objeto ocorre quando chamamos Singleton.getInstance().
+- No LazySingleton, quando fazemos s=LazySingleton(), o método __init__ é chamado, mas nenhum objeto novo é criado. Entretanto a criação propriamente dita do objeto ocorre quando chamamos LazySingleton.getInstance().
 - [Code](lazy.py)
 
 #### Borg ou Monostate Singleton
@@ -18,7 +18,7 @@
 
 #### Cenário 1
 - Aplicação de banco de dados usando singleton.
-    - Criamos uma metaclasse chamada `MetaSingleton`. Conforme explicado anteriormente, o método especial \_\_call\_\_ de Python é usado na metaclasse para criar um Singleton.
+    - Criamos uma metaclasse chamada `MetaSingleton`. O método especial \_\_call\_\_ de Python é usado na metaclasse para criar um Singleton.
     - A classe `Database` está decorada com a classe `MetaSingleton` e começa a agir como um Singleton. Assim, quando a classe `Database` é instanciada, ela cria apenas um objeto.
     - Quando a aplicação web quiser executar determinadas operações no banco de dados, ela instanciará a classe de banco de dados várias vezes, mas somente um objeto será criado. Como existe apenas um objeto, as chamadas ao banco de dados serão sincronizadas. Além do mais, isso não é custoso para os recursos do sistema, e podemos evitar problemas com recursos de memória ou CPU.
 - [Code](example_1.py)
