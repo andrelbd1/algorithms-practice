@@ -55,3 +55,4 @@
 - [Façade](design_patterns/facade/README.md)
 - [Proxy](design_patterns/proxy/README.md)
 - [Observer](design_patterns/observer/README.md)
+- [Command](design_patterns/command/README.md)
