@@ -57,3 +57,4 @@
 - [Observer](design_patterns/observer/README.md)
 - [Command](design_patterns/command/README.md)
 - [Template Method](design_patterns/template_method/README.md)
+- [State](design_patterns/state/README.md)
