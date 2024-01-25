@@ -49,6 +49,7 @@
 - [Debugging with pdb](python_utils/pdb/README.md)
 
 ### Design Patterns
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Wr1-BynMIlE/1.jpg)](http://www.youtube.com/watch?v=Wr1-BynMIlE)
 
 - [Singleton](design_patterns/singleton/README.md)
 - [Factory](design_patterns/factory/README.md)
@@ -58,3 +59,5 @@
 - [Command](design_patterns/command/README.md)
 - [Template Method](design_patterns/template_method/README.md)
 - [State](design_patterns/state/README.md)
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/kVgVcsh45EI/1.jpg)](http://www.youtube.com/watch?v=kVgVcsh45EI)
