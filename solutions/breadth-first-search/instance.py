@@ -2,8 +2,8 @@ from bfs import BreadthFirstSearch as BFS
 
 graph = {
    "a" : ["b","c"],
-   "b" : ["a", "d"],
-   "c" : ["a", "d"],
+   "b" : ["a","d"],
+   "c" : ["a","d"],
    "d" : ["e"],
    "e" : ["d"],
    "f" : ["g"],
