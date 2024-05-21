@@ -28,6 +28,7 @@
 - [Leap Day](solutions/leap-day/README.md)
 - [Left Rotation](solutions/left-rotation/README.md)
 - [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md)
+- [Mark and Toys](solutions/mark-and-toys/README.md)
 - [Minimum Swaps 2](solutions/minimum-swaps-2/README.md)
 - [New Year Chaos](solutions/new-year-chaos/README.md)
 - [Ransom Note](solutions/ransom-note/README.md)
