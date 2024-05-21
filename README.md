@@ -20,6 +20,7 @@
 - [Array Manipulation](solutions/array-manipulation/README.md)
 - [Count Triplets](solutions/count-triplets/README.md)
 - [Counting Valleys](solutions/counting-valleys/README.md)
+- [Equal Stacks](solutions/equal-stacks/README.md)
 - [Frequency Queries](solutions/frequency-queries/README.md)
 - [Is This a Binary Search Tree?](solutions/check-binary-search-tree/README.md)
 - [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md)
