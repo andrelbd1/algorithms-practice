@@ -33,6 +33,7 @@
 - [New Year Chaos](solutions/new-year-chaos/README.md)
 - [Ransom Note](solutions/ransom-note/README.md)
 - [Repeated String](solutions/repeated-string/README.md)
+- [Reverse a Doubly Linked List](solutions/reverse-a-doubly-linked-list/README.md)
 - [Sales by Match](solutions/sales-by-match/README.md)
 - [Sherlock and Anagrams](solutions/sherlock-and-anagrams/README.md)
 - [Two Strings](solutions/two-strings/README.md)
