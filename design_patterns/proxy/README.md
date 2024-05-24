@@ -24,4 +24,4 @@
 
 - [Code](code.py)
 
-### [Back](../../README.md)
+### [Back](../../README.md#design-patterns)

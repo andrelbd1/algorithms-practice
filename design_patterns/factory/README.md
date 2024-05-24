@@ -32,4 +32,4 @@
 - No código a seguir, suponha que criamos uma pizzaria em que são servidas pizzas indianas e americanas deliciosas. Para isso, inicialmente criamos uma classe-base abstrata `PizzaFactory`. A classe `PizzaFactory` tem dois métodos abstratos, `createVegPizza()` e `createNonVegPizza()`, que devem ser implementados por ConcreteFactory. Nesse exemplo, criamos duas fábricas concretas, que são `IndianPizzaFactory` e `USPizzaFactory`.
 - [Code](abstract_factory.py)
 
-### [Back](../../README.md)
+### [Back](../../README.md#design-patterns)

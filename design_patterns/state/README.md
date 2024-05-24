@@ -12,4 +12,4 @@ Suponha que queremos implementar um controle remoto de TV com um botão simples 
 
 - [Code](real.py)
 
-### [Back](../../README.md)
+### [Back](../../README.md#design-patterns)
