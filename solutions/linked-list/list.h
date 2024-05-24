@@ -13,7 +13,7 @@ class List {
 	int count_;
 
 	public:
-		List ();
+		List();
 
 		int size();
 		void add_element(int);
