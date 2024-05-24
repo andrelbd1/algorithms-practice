@@ -31,3 +31,5 @@ A classe `StockTrade` representa o objeto Receiver nesse exemplo. Ela define vá
 A classe `Agent` representa o chamador. O agente é o intermediário entre o cliente e StockExchange, e executa os pedidos apresentados pelo cliente. • O agente define um membro de dado, __orderQueue (uma lista), que atua como uma fila. Qualquer nova requisição feita pelo cliente é adicionada na fila. O método `placeOrder()` de Agent é responsável por colocar as requisições na fila e executá-las.
 
 - [Code](real.py)
+
+### [Back](../../README.md)

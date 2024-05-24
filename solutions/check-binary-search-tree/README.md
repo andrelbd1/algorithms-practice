@@ -16,3 +16,5 @@
     - You are not responsible for printing any output to stdout. Your function must return true if the tree is a binary search tree; otherwise, it must return false. Hidden code stubs will print this result as a Yes or No answer on a new line.
 
 - [Solution](main.py)
+
+### [Back](../../README.md)

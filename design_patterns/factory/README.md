@@ -31,3 +31,5 @@
 - Enquanto o Factory Method adia a criação da instância para as subclasses, o objetivo do método Abstract Factory é criar famílias de objetos relacionados. Com efeito, os padrões Abstract Factory garantem que o cliente esteja isolado da criação dos objetos, mas permite que ele utilize os objetos criados. O cliente tem a capacidade de acessar os objetos somente por meio de uma interface. Se os produtos de uma família tiverem de ser usados, o padrão Abstract Factory ajudará o cliente a utilizar os objetos de uma família de cada vez.
 - No código a seguir, suponha que criamos uma pizzaria em que são servidas pizzas indianas e americanas deliciosas. Para isso, inicialmente criamos uma classe-base abstrata `PizzaFactory`. A classe `PizzaFactory` tem dois métodos abstratos, `createVegPizza()` e `createNonVegPizza()`, que devem ser implementados por ConcreteFactory. Nesse exemplo, criamos duas fábricas concretas, que são `IndianPizzaFactory` e `USPizzaFactory`.
 - [Code](abstract_factory.py)
+
+### [Back](../../README.md)

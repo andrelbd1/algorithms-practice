@@ -21,3 +21,5 @@ A viagem deve conter vários métodos abstratos que definem o transporte usado, 
 O objeto abstrato é representado pela classe `Trip`. É uma interface (classe-base abstrata de Python) que define detalhes como o transporte usado e os lugares a ser visitados em dias diferentes. `setTransport` é um método abstrato que deve ser implementado por ConcreteClass para definir o meio de transporte. Os métodos abstratos `day1()`, `day2()` e `day3()` definem os lugares a ser visitados no dia especificado. O Método Template `itinerary()` cria o itinerário completo (o algoritmo – nesse caso, a viagem). A sequência da viagem consiste em definir primeiro o meio de transporte e depois os lugares a ser visitados a cada dia e o `returnHome`. As classes que representam a classe concreta são `VeniceTrip` e `MaldivesTrip`, que implementam a interface Trip. A classe `TravelAgency` representa o objeto client nesse exemplo.
 
 - [Code](real.py)
+
+### [Back](../../README.md)

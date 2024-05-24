@@ -26,3 +26,5 @@
     - A classe `Database` está decorada com a classe `MetaSingleton` e começa a agir como um Singleton. Assim, quando a classe `Database` é instanciada, ela cria apenas um objeto.
     - Quando a aplicação web quiser executar determinadas operações no banco de dados, ela instanciará a classe de banco de dados várias vezes, mas somente um objeto será criado. Como existe apenas um objeto, as chamadas ao banco de dados serão sincronizadas. Além do mais, isso não é custoso para os recursos do sistema, e podemos evitar problemas com recursos de memória ou CPU.
 - [Code](example_1.py)
+
+### [Back](../../README.md)

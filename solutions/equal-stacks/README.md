@@ -22,3 +22,5 @@ Find the maximum possible height of the stacks such that all of the stacks are e
     - To equalize thier heights, remove the first cylinder from stacks 1 and 2, and then remove the top two cylinders from stack 3
 
 - [Solution](main.py)
+
+### [Back](../../README.md)
