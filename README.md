@@ -46,7 +46,7 @@
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 - [Debugging with pdb](python_utils/pdb/README.md)
 
-### Design Patterns(https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
+### [Design Patterns](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
 - [Singleton](design_patterns/singleton/README.md)
 - [Factory](design_patterns/factory/README.md)
 - [Façade](design_patterns/facade/README.md)
