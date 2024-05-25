@@ -24,7 +24,7 @@ class DepthFirstSearch:
                 return value
 
             for next_node in self.graph[node]:
-                if not next_node in visited and not next_node in queue:
+                if next_node not in visited and next_node not in queue:
                     queue.append(next_node)
 
         print("path: Not found")
