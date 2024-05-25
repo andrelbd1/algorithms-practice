@@ -12,7 +12,7 @@ Return the length of the shortest path for you to reach any food cell. If there 
 - Example:
 ````bash
         Input: X X X X X X X X
-               X P 0 X O F O X
+               X P O X O F O X
                X O O X O O X X
                X O O O O F O X
                X X X X X X X X

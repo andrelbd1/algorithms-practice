@@ -3,52 +3,50 @@
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 
 ### List of classical algorithms
-- [Binary Search Tree](solutions/binary-search-tree/README.md)
-- [Breadth First Search - BFS](solutions/breadth-first-search/README.md)
-- [Depth First Search - DFS](solutions/depth-first-search/README.md)
-- [Heapsort](solutions/heapsort/README.md)
-- [Linked List](solutions/linked-list/README.md)
+- [Binary Search Tree](solutions/binary-search-tree/README.md) `Python`
+- [Breadth First Search - BFS](solutions/breadth-first-search/README.md) `Python`
+- [Depth First Search - DFS](solutions/depth-first-search/README.md) `Python`
+- [Heapsort](solutions/heapsort/README.md) `C++`
+- [Linked List](solutions/linked-list/README.md) `C++`
 
 ### List of problems and solutions using C, C++ and Python
-- [Fractional Knapsack](solutions/knapsack/README.md)
-- [Polynomial Multiplication](solutions/polynomial-multiplication/README.md)
-- [Interval Scheduling](solutions/interval-scheduling/README.md)
-- [Shortest Path for Buildings](solutions/buildings/README.md)
+- [Fractional Knapsack](solutions/knapsack/README.md) `C++`
+- [Polynomial Multiplication](solutions/polynomial-multiplication/README.md) `C++`
+- [Interval Scheduling](solutions/interval-scheduling/README.md) `Python`
+- [Shortest Path for Buildings](solutions/buildings/README.md) `Python`
 
 ### From [HackerRank](https://www.hackerrank.com/andrelbd1)
-- [2D Arrays - DS](solutions/2d-arrays-ds/README.md)
-- [Array Manipulation](solutions/array-manipulation/README.md)
-- [Count Triplets](solutions/count-triplets/README.md)
-- [Counting Valleys](solutions/counting-valleys/README.md)
-- [Equal Stacks](solutions/equal-stacks/README.md)
-- [Frequency Queries](solutions/frequency-queries/README.md)
-- [Is This a Binary Search Tree?](solutions/check-binary-search-tree/README.md)
-- [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md)
-- [Kangaroo](solutions/kangaroo/README.md)
-- [Leap Day](solutions/leap-day/README.md)
-- [Left Rotation](solutions/left-rotation/README.md)
-- [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md)
-- [Mark and Toys](solutions/mark-and-toys/README.md)
-- [Minimum Swaps 2](solutions/minimum-swaps-2/README.md)
-- [New Year Chaos](solutions/new-year-chaos/README.md)
-- [Ransom Note](solutions/ransom-note/README.md)
-- [Repeated String](solutions/repeated-string/README.md)
-- [Reverse a Doubly Linked List](solutions/reverse-a-doubly-linked-list/README.md)
-- [Roads and Libraries](solutions/roads-and-libraries/README.md)
-- [Sales by Match](solutions/sales-by-match/README.md)
-- [Sherlock and Anagrams](solutions/sherlock-and-anagrams/README.md)
-- [Two Strings](solutions/two-strings/README.md)
+- [2D Arrays - DS](solutions/2d-arrays-ds/README.md) `C++` `Arrays`
+- [Array Manipulation](solutions/array-manipulation/README.md) `C++` `Arrays`
+- [Count Triplets](solutions/count-triplets/README.md) `C++` `Arrays`
+- [Counting Valleys](solutions/counting-valleys/README.md) `C++`
+- [Equal Stacks](solutions/equal-stacks/README.md) `Python` `Stack`
+- [Frequency Queries](solutions/frequency-queries/README.md) `Python`
+- [Is This a Binary Search Tree?](solutions/check-binary-search-tree/README.md) `Python` `Graph` `Tree`
+- [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md) `C++`
+- [Kangaroo](solutions/kangaroo/README.md) `Python`
+- [Leap Day](solutions/leap-day/README.md) `Python`
+- [Left Rotation](solutions/left-rotation/README.md) `C++` `Arrays` `String`
+- [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md) `Python` `Graph` `Tree`
+- [Mark and Toys](solutions/mark-and-toys/README.md) `Python` `Arrays` `Greedy`
+- [Minimum Swaps 2](solutions/minimum-swaps-2/README.md) `C++` `Arrays` `Greedy` `Sorting`
+- [New Year Chaos](solutions/new-year-chaos/README.md) `C++`
+- [Ransom Note](solutions/ransom-note/README.md) `Python` `String`
+- [Repeated String](solutions/repeated-string/README.md) `C++` `String`
+- [Reverse a Doubly Linked List](solutions/reverse-a-doubly-linked-list/README.md) `Python` `List`
+- [Roads and Libraries](solutions/roads-and-libraries/README.md) `Python` `Graph`
+- [Sales by Match](solutions/sales-by-match/README.md) `C++` `Arrays` `Greedy` `Sorting`
+- [Sherlock and Anagrams](solutions/sherlock-and-anagrams/README.md) `Python` `String`
+- [Two Strings](solutions/two-strings/README.md) `Python` `String`
 
 ### From [LeetCode](https://leetcode.com/andrelbd1/)
-- [Shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md)
+- [Shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md) `Python` `Graph`
 
 ### Python tips
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 - [Debugging with pdb](python_utils/pdb/README.md)
 
-### Design Patterns
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Wr1-BynMIlE/1.jpg)](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
-
+### Design Patterns(https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
 - [Singleton](design_patterns/singleton/README.md)
 - [Factory](design_patterns/factory/README.md)
 - [Façade](design_patterns/facade/README.md)

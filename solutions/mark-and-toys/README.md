@@ -22,6 +22,6 @@ Returns
         4
 ````
 
-- [Solution](main.cpp)
+- [Solution](main.py)
 
 ### [Back](../../README.md)

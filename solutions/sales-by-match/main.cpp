@@ -6,7 +6,7 @@ int
 sockMerchant(int n, vector<int> ar)
 {
     if (ar.size() == 0)
-            return 0;
+        return 0;
 
     sort(ar.begin(), ar.end()); //O(nlogn)
 
@@ -17,12 +17,12 @@ sockMerchant(int n, vector<int> ar)
     for (int i: ar) //O(n)
     {
         if (i == curr)
-                count_curr += 1;
+            count_curr+=1;
         else
         {
-                count+=count_curr/2;
-                count_curr=1;
-                curr=i;
+            count+=count_curr/2;
+            count_curr=1;
+            curr=i;
         }
     }
 

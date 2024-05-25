@@ -2,14 +2,13 @@
 
 using namespace std;
 
-
 int
 countingValleys(int steps, string path)
 {
 	int level=0;
 	int valley=0;
 	int count_valley=0;
-    	for (int i=0; i<steps; i++)
+    for (int i=0; i<steps; i++)
 	{
 		if(path[i] == 'U')
 			level+=1;
