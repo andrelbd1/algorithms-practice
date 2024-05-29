@@ -6,10 +6,11 @@
 - [Binary Search Tree](solutions/binary-search-tree/README.md) `Python`
 - [Breadth First Search - BFS](solutions/breadth-first-search/README.md) `Python`
 - [Depth First Search - DFS](solutions/depth-first-search/README.md) `Python`
+- [Dijkstra](solutions/dijkstra/README.md) `Python`
 - [Heapsort](solutions/heapsort/README.md) `C++`
 - [Linked List](solutions/linked-list/README.md) `C++`
 
-### List of problems and solutions using C, C++ and Python
+### List of problems and solutions using C++ and Python
 - [Fractional Knapsack](solutions/knapsack/README.md) `C++`
 - [Polynomial Multiplication](solutions/polynomial-multiplication/README.md) `C++`
 - [Interval Scheduling](solutions/interval-scheduling/README.md) `Python`
@@ -30,7 +31,7 @@
 - [Lowest Common Ancestor](solutions/lowest-common-ancestor/README.md) `Python` `Graph` `Tree`
 - [Mark and Toys](solutions/mark-and-toys/README.md) `Python` `Arrays` `Greedy`
 - [Minimum Swaps 2](solutions/minimum-swaps-2/README.md) `C++` `Arrays` `Greedy` `Sorting`
-- [New Year Chaos](solutions/new-year-chaos/README.md) `C++`
+- [New Year Chaos](solutions/new-year-chaos/README.md) `C++` `Arrays`
 - [Ransom Note](solutions/ransom-note/README.md) `Python` `String`
 - [Repeated String](solutions/repeated-string/README.md) `C++` `String`
 - [Reverse a Doubly Linked List](solutions/reverse-a-doubly-linked-list/README.md) `Python` `List`
