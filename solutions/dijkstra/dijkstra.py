@@ -1,9 +1,9 @@
 from math import inf
 
 class Dijkstra:
-    def __init__(self, vertices):
-        self.n_vertices = vertices
-        self.graph = [[0 for column in range(vertices)] for row in range(vertices)]
+    def __init__(self, graph):
+        self.graph = graph
+        self.n_vertices = len(graph)
 
     def print_result(self, dist, target=None):
         if target:
@@ -33,9 +33,9 @@ class Dijkstra:
             u = self.min_distance(dist, visited)
             visited[u] = True
 
-            # Update dist value of the adjacent vertices
+            # Update distance value of the adjacent vertices
             for v in range(self.n_vertices):
-                if (self.graph[u][v] > 0 and # Check edge
+                if (self.graph[u][v] > 0 and # Check if has edge
                         visited[v] == False and
                         dist[v] > dist[u] + self.graph[u][v]):
                     dist[v] = dist[u] + self.graph[u][v]
