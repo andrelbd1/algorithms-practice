@@ -3,9 +3,9 @@ from collections import Counter
 from itertools import combinations
 
 def min_distance(dist, visited):
-    min_dist = math.inf
+    min_dist = math.inf # Initialize minimum distance for next node
     for v in dist.keys():
-        if dist[v] < min_dist and visited[v] is False:
+        if dist[v] < min_dist and visited[v] is False: # get nearest vertex not visited
             min_dist = dist[v]
             vertice = v
     return vertice
@@ -14,14 +14,14 @@ def min_distance(dist, visited):
 def dijkstra(graph, src, target):
     visited = {i: False for i in range(1, len(graph)+1)}
     dist = {i: math.inf for i in range(1, len(graph)+1)}
-    dist[src] = 0
+    dist[src] = 0 
     n_vertice = len(graph)
     
     for _ in range(n_vertice):
-        u = min_distance(dist, visited)
+        u = min_distance(dist, visited) # Get the minimum distance vertex not visited yet.
         visited[u]=True
         
-        for v in graph[u]:
+        for v in graph[u]: # Update distance value of the adjacent vertices
             if visited[v] is False and dist[v] > dist[u] + 1:
                 dist[v] = dist[u] + 1
                 
