@@ -22,6 +22,7 @@
 - [Count Triplets](solutions/count-triplets/README.md) `C++` `Arrays`
 - [Counting Valleys](solutions/counting-valleys/README.md) `C++`
 - [Equal Stacks](solutions/equal-stacks/README.md) `Python` `Stack`
+- [Find the Nearest Clone](solution/find-the-nearest-clone/README.md) `Python` `Graph` `Greedy`
 - [Frequency Queries](solutions/frequency-queries/README.md) `Python`
 - [Is This a Binary Search Tree?](solutions/check-binary-search-tree/README.md) `Python` `Graph` `Tree`
 - [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md) `C++`
