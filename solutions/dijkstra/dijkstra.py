@@ -1,4 +1,4 @@
-import numpy as np
+from math import inf
 
 class Dijkstra:
     def __init__(self, vertices):
@@ -14,7 +14,7 @@ class Dijkstra:
             print(node, "\t\t", dist[node])
 
     def min_distance(self, dist, visited):        
-        min = np.inf # Initialize minimum distance for next node 
+        min = inf # Initialize minimum distance for next node 
         for v in range(self.n_vertices): # get nearest vertex not visited
             if dist[v] < min and visited[v] == False:
                 min = dist[v]
@@ -24,7 +24,7 @@ class Dijkstra:
 
     def dijkstra(self, src, target=None): # O(n2)
         visited = [False] * self.n_vertices
-        dist = [np.inf] * self.n_vertices
+        dist = [inf] * self.n_vertices
         dist[src] = 0
 
         for _ in range(self.n_vertices):
