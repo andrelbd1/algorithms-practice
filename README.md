@@ -21,6 +21,7 @@
 - [Array Manipulation](solutions/array-manipulation/README.md) `C++` `Arrays`
 - [Count Triplets](solutions/count-triplets/README.md) `C++` `Arrays`
 - [Counting Valleys](solutions/counting-valleys/README.md) `C++`
+- [DFS: Connected Cell in a Grid](solutions/dfs-connected-cell-in-grid/README.md) `Python` `Graph`
 - [Equal Stacks](solutions/equal-stacks/README.md) `Python` `Stack`
 - [Find the Nearest Clone](solutions/find-the-nearest-clone/README.md) `Python` `Graph` `Greedy`
 - [Frequency Queries](solutions/frequency-queries/README.md) `Python`

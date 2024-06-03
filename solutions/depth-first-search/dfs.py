@@ -6,16 +6,16 @@ class DepthFirstSearch:
         print()
         print("root: ",root)
         print("value: ",value)
-        queue = []
-        queue.append(root)
+        stack = []
+        stack.append(root)
         
         visited = []
 
         #LIFO
-        while len(queue) > 0:
-            size = len(queue)
-            node = queue[size-1]
-            queue.remove(node)
+        while len(stack) > 0:
+            size = len(stack)
+            node = stack[size-1]
+            stack.remove(node)
 
             visited.append(node)
 
@@ -24,8 +24,8 @@ class DepthFirstSearch:
                 return value
 
             for next_node in self.graph[node]:
-                if next_node not in visited and next_node not in queue:
-                    queue.append(next_node)
+                if next_node not in visited and next_node not in stack:
+                    stack.append(next_node)
 
         print("path: Not found")
         return -1
