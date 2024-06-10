@@ -13,7 +13,7 @@ mv.remove((0, 0))
 def dfs(grid, n, m, visited, n_rows, n_cols):
     stack = [(n, m)]
     length = 0
-    while len(stack):
+    while stack:
         curr_n, curr_m = stack.pop(len(stack)-1)
         visited[curr_n][curr_m] = True
         length+=1
