@@ -24,6 +24,7 @@
 - [DFS: Connected Cell in a Grid](solutions/dfs-connected-cell-in-grid/README.md) `Python` `Graph`
 - [Equal Stacks](solutions/equal-stacks/README.md) `Python` `Stack`
 - [Find the Nearest Clone](solutions/find-the-nearest-clone/README.md) `Python` `Graph` `Greedy`
+- [Find a String](solutions/find-a-string/README.md) `Python` `String`
 - [Frequency Queries](solutions/frequency-queries/README.md) `Python`
 - [Is This a Binary Search Tree?](solutions/check-binary-search-tree/README.md) `Python` `Graph` `Tree`
 - [Jumping on the Clouds](solutions/jumping-on-the-clouds/README.md) `C++`
