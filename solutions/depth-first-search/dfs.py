@@ -12,13 +12,10 @@ class DepthFirstSearch:
         visited = []
 
         #LIFO
-        while len(stack) > 0:
-            size = len(stack)
-            node = stack[size-1]
-            stack.remove(node)
+        while stack:
+            node = stack.pop(len(stack)-1)
 
             visited.append(node)
-
             if value == node:
                 print("path: ",visited)
                 return value

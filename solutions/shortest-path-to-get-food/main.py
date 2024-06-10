@@ -16,10 +16,6 @@ def shortest_path(grid):
                 start_col = curr_col
                 break
     
-    # print(grid[start_row][start_col])
-    # print(start_row)
-    # print(start_col)
-
     visited = [[] for i in range(total_row)]
     
     directions = [[0,1],[1,0],[-1,0],[0,-1]]
@@ -27,7 +23,7 @@ def shortest_path(grid):
     queue.append((start_row,start_col))
     
     count = 0
-    while len(queue) > 0:
+    while queue:
         size = len(queue)
 
         for i in range(size):
