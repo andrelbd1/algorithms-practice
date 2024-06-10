@@ -11,9 +11,10 @@
 - [Linked List](solutions/linked-list/README.md) `C++`
 
 ### List of problems and solutions using C++ and Python
+- [Flatten List](solutions/flatten-list/README.md) `Python`
 - [Fractional Knapsack](solutions/knapsack/README.md) `C++`
-- [Polynomial Multiplication](solutions/polynomial-multiplication/README.md) `C++`
 - [Interval Scheduling](solutions/interval-scheduling/README.md) `Python`
+- [Polynomial Multiplication](solutions/polynomial-multiplication/README.md) `C++`
 - [Shortest Path for Buildings](solutions/buildings/README.md) `Python`
 
 ### From [HackerRank](https://www.hackerrank.com/andrelbd1)
@@ -44,11 +45,11 @@
 - [Two Strings](solutions/two-strings/README.md) `Python` `String`
 
 ### From [LeetCode](https://leetcode.com/andrelbd1/)
-- [Shortest-path-to-get-food](solutions/shortest-path-to-get-food/README.md) `Python` `Graph`
+- [Shortest Path to Get Food](solutions/shortest-path-to-get-food/README.md) `Python` `Graph`
 
 ### Python tips
-- [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 - [Debugging with pdb](python_utils/pdb/README.md)
+- [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 
 ### [Design Patterns](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
 - [Singleton](design_patterns/singleton/README.md)
