@@ -2,7 +2,7 @@
 - A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
 
 #### Decorator as function
-- [decorator_as_function.py](decorator_as_function.py)
+- [code](decorator_as_function.py)
 
 - Run this from your shell:
 ````bash
@@ -10,7 +10,7 @@
 ````
 
 #### Decorator as class
-- [decorator_as_class.py](decorator_as_class.py)
+- [code](decorator_as_class.py)
 - Run this from your shell:
 ````bash
     python decorator_as_class.py
