@@ -2,7 +2,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 [![GitHub repo size in bytes](https://img.shields.io/github/repo-size/andrelbd1/algorithms.svg)](https://github.com/andrelbd1/algorithms) 
 
-### List of classical algorithms
+### List of Classical Algorithms
 - [Binary Search Tree](solutions/binary-search-tree/README.md) `Python`
 - [Breadth First Search - BFS](solutions/breadth-first-search/README.md) `Python`
 - [Depth First Search - DFS](solutions/depth-first-search/README.md) `Python`
@@ -10,7 +10,7 @@
 - [Heapsort](solutions/heapsort/README.md) `C++`
 - [Linked List](solutions/linked-list/README.md) `C++`
 
-### List of problems and solutions using C++ and Python
+### List of Problems and Solutions
 - [Flatten List](solutions/flatten-list/README.md) `Python`
 - [Fractional Knapsack](solutions/knapsack/README.md) `C++`
 - [Interval Scheduling](solutions/interval-scheduling/README.md) `Python`
@@ -47,8 +47,9 @@
 ### From [LeetCode](https://leetcode.com/andrelbd1/)
 - [Shortest Path to Get Food](solutions/shortest-path-to-get-food/README.md) `Python` `Graph`
 
-### Python tips
+### Python Tips
 - [Debugging with pdb](python_utils/pdb/README.md)
+- [Decorator](python_utils/decorator/README.md)
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 
 ### [Design Patterns](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
