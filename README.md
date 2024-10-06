@@ -50,6 +50,7 @@
 ### Python Tips
 - [Debugging with pdb](python_utils/pdb/README.md)
 - [Decorator](python_utils/decorator/README.md)
+- [Format](python_utils/format/README.md)
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 
 ### [Design Patterns](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
