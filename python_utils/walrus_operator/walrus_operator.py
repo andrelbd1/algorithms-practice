@@ -66,24 +66,3 @@ def starts_with_b(name):
 
 any(starts_with_b(city) for city in cities)
 all(starts_with_b(city) for city in cities)
-
-
-
-
-
-
-
-
-
-
-
-
-
-number = 42
-
-validation_conditions = (
-    isinstance(number, int),
-    number % 2 == 0,
-)
-
-all(validation_conditions)
