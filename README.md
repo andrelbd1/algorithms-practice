@@ -48,6 +48,7 @@
 - [Shortest Path to Get Food](solutions/shortest-path-to-get-food/README.md) `Python` `Graph`
 
 ### Python Tips
+- [Currying](python_utils/currying/README.md)
 - [Debugging with pdb](python_utils/pdb/README.md)
 - [Decorator](python_utils/decorator/README.md)
 - [Format](python_utils/format/README.md)
