@@ -1,5 +1,5 @@
 # Walrus Operator
-## Hello, Walrus! 
+## Hello, Walrus!
 ## To get a first impression of what assignment expressions are all about,
 ## start your REPL and play around with the following code:
 walrus = False

@@ -53,6 +53,7 @@
 - [Decorator](python_utils/decorator/README.md)
 - [Format](python_utils/format/README.md)
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
+- [Map](python_utils/map/README.md)
 - [Walrus Operator](python_utils/walrus_operator/README.md)
 - [Yield](python_utils/yield/README.md)
 
