@@ -1,5 +1,6 @@
 from typing import Any
 
+
 class Book:
     def __init__(self, title: str, pages: int) -> None:
         self.title = title
@@ -12,7 +13,8 @@ class Book:
             case 'caps':
                 return self.title.upper()
             case _:
-                raise ValueError(f'Unknown specifier for Book()')
+                raise ValueError('Unknown specifier for Book()')
+
 
 def main() -> None:
     harry_potter: Book = Book('Harry Potter', 300)
@@ -23,6 +25,7 @@ def main() -> None:
     print('---------------------')
     print(f'{lord_rings:caps}')
     print(f'{lord_rings:time}')
+
 
 if __name__ == '__main__':
     main()

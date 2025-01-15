@@ -1,7 +1,7 @@
 # Walrus Operator
-## Hello, Walrus!
-## To get a first impression of what assignment expressions are all about,
-## start your REPL and play around with the following code:
+# Hello, Walrus!
+# To get a first impression of what assignment expressions are all about,
+# start your REPL and play around with the following code:
 walrus = False
 print(walrus)
 
@@ -9,7 +9,7 @@ print(walrus)
 print(walrus)
 
 
-## Dictionaries
+# Dictionaries
 numbers = [2, 8, 0, 1, 1, 9, 7, 7]
 
 '''Note that both the sum and the length of the numbers list are calculated twice.'''
@@ -30,12 +30,13 @@ description = {
 print(description)
 
 
-## List
+# List
 '''Here, you filter the numbers list and leave the positive results from applying slow().
 The problem with this code is that this expensive function is called twice.
 '''
 def slow(x):
     return x-2
+
 
 numbers = [7, 6, 1, 4, 1, 8, 0, 6]
 results = [slow(num) for num in numbers if slow(num) > 0]
@@ -63,6 +64,7 @@ also prints out which item is being checked:'''
 def starts_with_b(name):
     print(f"Checking {name}: {(result := name.startswith('B'))}")
     return result
+
 
 any(starts_with_b(city) for city in cities)
 all(starts_with_b(city) for city in cities)

@@ -5,8 +5,10 @@ class Multiply:
     def __call__(self, other_value: int) -> int:
         return self.value * other_value
 
+
 double: Multiply = Multiply(2)
 triple: Multiply = Multiply(3)
 
-print(f'{double(100) = }')
-print(f'{triple(100) = }')
+
+print(f'{double(100)=}')
+print(f'{triple(100)=}')
