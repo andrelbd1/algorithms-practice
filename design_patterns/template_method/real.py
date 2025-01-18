@@ -1,5 +1,6 @@
 from abc import abstractmethod, ABCMeta
 
+
 class Trip(metaclass=ABCMeta):
     @abstractmethod
     def setTransport(self):
@@ -28,6 +29,7 @@ class Trip(metaclass=ABCMeta):
         self.day3()
         self.returnHome()
 
+
 class VeniceTrip(Trip):
     def setTransport(self):
         print("Take a boat and find your way in the Grand Canal")
@@ -43,6 +45,7 @@ class VeniceTrip(Trip):
 
     def returnHome(self):
         print("Get souvenirs for friends and get back")
+
 
 class MaldivesTrip(Trip):
     def setTransport(self):
@@ -60,14 +63,17 @@ class MaldivesTrip(Trip):
     def returnHome(self):
         print("Don't feel like leaving the beach..")
 
+
 class TravelAgency:
     def arrange_trip(self):
         choice = input("What kind of place you'd like to go historical or to a beach? ")
-        if choice=='historical':
-            self.trip=VeniceTrip()
+        if choice == 'historical':
+            self.trip = VeniceTrip()
             self.trip.itinerary()
-        if choice=='beach':
-            self.trip=MaldivesTrip()
+        if choice == 'beach':
+            self.trip = MaldivesTrip()
             self.trip.itinerary()
 
-TravelAgency().arrange_trip()
+
+if __name__ == "__main__":
+    TravelAgency().arrange_trip()

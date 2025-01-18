@@ -2,7 +2,7 @@ class Subject:
     def __init__(self):
         self.__observers = []
 
-    def register(self,observer):
+    def register(self, observer):
         self.__observers.append(observer)
 
     def notifyAll(self, *args, **kwargs):
@@ -15,7 +15,7 @@ class Observer1:
         subject.register(self)
 
     def listen(self, subject, *args):
-        print(type(self).__name__,':: Got',args,'From',subject)
+        print(type(self).__name__, ':: Got', args, 'From', subject)
 
 
 class Observer2:
@@ -23,10 +23,11 @@ class Observer2:
         subject.register(self)
 
     def listen(self, subject, *args):
-        print(type(self).__name__,':: Got',args,'From',subject)
+        print(type(self).__name__, ':: Got', args, 'From', subject)
 
 
-subject = Subject()
-observer1 = Observer1(subject)
-observer2 = Observer2(subject)
-subject.notifyAll('notification')
+if __name__ == "__main__":
+    subject = Subject()
+    observer1 = Observer1(subject)
+    observer2 = Observer2(subject)
+    subject.notifyAll('notification')

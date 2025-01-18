@@ -1,13 +1,15 @@
 from abc import ABCMeta, abstractmethod
 
+
 class PizzaFactory(metaclass=ABCMeta):
     @abstractmethod
     def createVegPizza(self):
         pass
-    
+
     @abstractmethod
     def createNonVegPizza(self):
         pass
+
 
 class IndianPizzaFactory(PizzaFactory):
     def createVegPizza(self):
@@ -15,6 +17,7 @@ class IndianPizzaFactory(PizzaFactory):
 
     def createNonVegPizza(self):
         return ChickenPizza()
+
 
 class USPizzaFactory(PizzaFactory):
     def createVegPizza(self):
@@ -24,33 +27,36 @@ class USPizzaFactory(PizzaFactory):
         return HamPizza()
 
 
-
 class VegPizza(metaclass=ABCMeta):
     @abstractmethod
     def prepare(self, VegPizza):
         pass
+
 
 class NonVegPizza(metaclass=ABCMeta):
     @abstractmethod
     def serve(self, VegPizza):
         pass
 
+
 class DeluxVeggiePizza(VegPizza):
     def prepare(self):
         print("Prepare", type(self).__name__)
 
+
 class ChickenPizza(NonVegPizza):
     def serve(self, VegPizza):
-        print(type(self).__name__," is served with Chicken on ", type(VegPizza).__name__)
+        print(type(self).__name__, " is served with Chicken on ", type(VegPizza).__name__)
+
 
 class MexicanVegPizza(VegPizza):
     def prepare(self):
         print("Prepare", type(self).__name__)
 
-class HamPizza(NonVegPizza):
-    def serve(self,VegPizza):
-        print(type(self).__name__, " is served with Ham on ", type(VegPizza).__name__)
 
+class HamPizza(NonVegPizza):
+    def serve(self, VegPizza):
+        print(type(self).__name__, " is served with Ham on ", type(VegPizza).__name__)
 
 
 class PizzaStore:
@@ -65,5 +71,7 @@ class PizzaStore:
             self.VegPizza.prepare()
             self.NonVegPizza.serve(self.VegPizza)
 
-pizza = PizzaStore()
-pizza.makePizza()
+
+if __name__ == "__main__":
+    pizza = PizzaStore()
+    pizza.makePizza()

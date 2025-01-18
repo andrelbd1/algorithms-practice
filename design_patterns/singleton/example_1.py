@@ -1,12 +1,14 @@
 import sqlite3
 
+
 class MetaSingleton(type):
     _instances = {}
-    
-    def __call__(cls,*args,**kwargs):
+
+    def __call__(cls, *args, **kwargs):
         if cls not in cls._instances:
-            cls._instances[cls] = super(MetaSingleton,cls).__call__(*args,**kwargs)
+            cls._instances[cls] = super(MetaSingleton, cls).__call__(*args, **kwargs)
         return cls._instances[cls]
+
 
 class Database(metaclass=MetaSingleton):
     connection = None
@@ -17,8 +19,10 @@ class Database(metaclass=MetaSingleton):
             self.cursorObj = self.connection.cursor()
         return self.cursorObj
 
-db1 = Database().connect()
-db2 = Database().connect()
 
-print("Database Objects DB1", db1)
-print("Database Objects DB2", db2)
+if __name__ == "__main__":
+    db1 = Database().connect()
+    db2 = Database().connect()
+
+    print("Database Objects DB1", db1)
+    print("Database Objects DB2", db2)

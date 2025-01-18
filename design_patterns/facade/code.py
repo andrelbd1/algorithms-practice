@@ -65,5 +65,6 @@ class You(object):
         print("You:: Thanks to Event Manager, all preparations done! Phew!")
 
 
-you = You()
-you.askEventManager()
+if __name__ == "__main__":
+    you = You()
+    you.askEventManager()

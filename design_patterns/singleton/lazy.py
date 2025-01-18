@@ -1,12 +1,12 @@
 class LazySingleton:
 
-    __instance=None
+    __instance = None
 
     def __init__(self):
         if not LazySingleton.__instance:
             print("__init__ method called")
         else:
-            print("Instance already created:",self.getInstance())
+            print("Instance already created:", self.getInstance())
 
     @classmethod
     def getInstance(cls):
@@ -15,7 +15,9 @@ class LazySingleton:
 
         return cls.__instance
 
-s=LazySingleton()
-print("Object create", LazySingleton.getInstance())
 
-s1=LazySingleton()
+if __name__ == "__main__":
+    s = LazySingleton()
+    print("Object create", LazySingleton.getInstance())
+
+    s1 = LazySingleton()

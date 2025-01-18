@@ -1,10 +1,11 @@
 from abc import ABCMeta, abstractmethod
 
+
 class NewsPublisher:
     def __init__(self):
         self.__subscribers = []
         self.__latestNews = None
-    
+
     def attach(self, subscriber):
         self.__subscribers.append(subscriber)
 
@@ -33,7 +34,7 @@ class Subscriber(metaclass=ABCMeta):
 
 
 class SMSSubscriber(Subscriber):
-    def __init__(self,publisher):
+    def __init__(self, publisher):
         self.publisher = publisher
         self.publisher.attach(self)
 
@@ -42,7 +43,7 @@ class SMSSubscriber(Subscriber):
 
 
 class EmailSubscriber(Subscriber):
-    def __init__(self,publisher):
+    def __init__(self, publisher):
         self.publisher = publisher
         self.publisher.attach(self)
 
@@ -51,7 +52,7 @@ class EmailSubscriber(Subscriber):
 
 
 class AnyOtherSubscriber(Subscriber):
-    def __init__(self,publisher):
+    def __init__(self, publisher):
         self.publisher = publisher
         self.publisher.attach(self)
 
@@ -64,11 +65,11 @@ if __name__ == '__main__':
 
     for Subscribers in [SMSSubscriber, EmailSubscriber, AnyOtherSubscriber]:
         Subscribers(news_publisher)
-    print("\nSubscribers:",news_publisher.subscriber())
+    print("\nSubscribers:", news_publisher.subscriber())
 
     news_publisher.addNews('Hello World!')
 
-    print("\nDetached:",type(news_publisher.detach()).__name__)
-    print("\nSubscribers:",news_publisher.subscriber())
+    print("\nDetached:", type(news_publisher.detach()).__name__)
+    print("\nSubscribers:", news_publisher.subscriber())
 
     news_publisher.addNews('My second news!')

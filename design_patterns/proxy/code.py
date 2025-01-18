@@ -1,17 +1,19 @@
 from abc import ABCMeta, abstractmethod
 
+
 class Payment(metaclass=ABCMeta):
     @abstractmethod
     def do_pay(self):
         pass
 
+
 class Bank(Payment):
     def __init__(self):
-        self.card=None
-        self.account=None
+        self.card = None
+        self.account = None
 
     def __getAccount(self):
-        self.account = self.card #Supondo ser o número do cartão
+        self.account = self.card  # Supondo ser o número do cartão
         return self.account
 
     def __hasFunds(self):
@@ -54,5 +56,7 @@ class You:
         else:
             print("You:: I should earn more :(")
 
-you = You()
-you.make_payment()
+
+if __name__ == "__main__":
+    you = You()
+    you.make_payment()
