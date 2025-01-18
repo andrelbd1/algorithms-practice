@@ -1,6 +1,7 @@
 import functools
 from count_calls import CountCalls
 
+
 def cache(func):
     """Keep a cache of previous function calls"""
     @functools.wraps(func)
@@ -12,11 +13,13 @@ def cache(func):
     wrapper_cache.cache = {}
     return wrapper_cache
 
+
 @CountCalls
 def fibonacci_straightforward(num):
     if num < 2:
         return num
     return fibonacci_straightforward(num - 1) + fibonacci_straightforward(num - 2)
+
 
 @cache
 @CountCalls
@@ -25,7 +28,8 @@ def fibonacci_memoization(num):
         return num
     return fibonacci_memoization(num - 1) + fibonacci_memoization(num - 2)
 
-n=8
+
+n = 8
 print(fibonacci_straightforward(n))
-print(f'----------------------------------')
+print('----------------------------------')
 print(fibonacci_memoization(n))

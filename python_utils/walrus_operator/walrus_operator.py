@@ -20,7 +20,7 @@ description = {
 }
 print(description)
 
-'''The variables num_length and num_sum are only used to optimize the calculations 
+'''The variables num_length and num_sum are only used to optimize the calculations
 inside the dictionary. By using the walrus operator, you can make this role clearer'''
 description = {
     "length": (num_length := len(numbers)),
@@ -34,11 +34,13 @@ print(description)
 '''Here, you filter the numbers list and leave the positive results from applying slow().
 The problem with this code is that this expensive function is called twice.
 '''
+numbers = [7, 6, 1, 4, 1, 8, 0, 6]
+
+
 def slow(x):
     return x-2
 
 
-numbers = [7, 6, 1, 4, 1, 8, 0, 6]
 results = [slow(num) for num in numbers if slow(num) > 0]
 print(results)
 
@@ -49,8 +51,8 @@ results = [value for num in numbers if (value := slow(num)) > 0]
 print(results)
 
 
-'''Here, you first capture all city names that start with "B". 
-Then, if there’s at least one such city name, you print out the 
+'''Here, you first capture all city names that start with "B".
+Then, if there’s at least one such city name, you print out the
 first city name starting with "B".'''
 cities = ['Monaco', 'Vancouver', 'Rio de Janeiro', 'Berlin', 'La Paz', 'Bogota', 'Dallas']
 
@@ -61,6 +63,8 @@ else:
 
 '''You can more clearly see what’s happening by wrapping .startswith("B") in a function that
 also prints out which item is being checked:'''
+
+
 def starts_with_b(name):
     print(f"Checking {name}: {(result := name.startswith('B'))}")
     return result

@@ -26,7 +26,7 @@ def bfs(w, h, area):
             if (newx >= w) | (newy >= h) | (newx < 0) | (newy < 0):
                 continue
 
-            if(dist[newx][newy] == -1):
+            if (dist[newx][newy] == -1):
                 dist[newx][newy] = dist[x][y] + 1
                 q.append([newx, newy])
 

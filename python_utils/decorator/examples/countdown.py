@@ -1,6 +1,7 @@
 import functools
 import time
 
+
 def slow_down(_func=None, *, rate=1):
     """Sleep given amount of seconds before calling the function"""
     def decorator_slow_down(func):
@@ -15,6 +16,7 @@ def slow_down(_func=None, *, rate=1):
     else:
         return decorator_slow_down(_func)
 
+
 @slow_down(rate=1)
 def countdown(from_number):
     if from_number < 1:
@@ -22,5 +24,6 @@ def countdown(from_number):
     else:
         print(from_number)
         countdown(from_number - 1)
+
 
 countdown(3)
