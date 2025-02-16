@@ -7,6 +7,7 @@
 - [Breadth First Search - BFS](solutions/breadth-first-search/README.md) `Python`
 - [Depth First Search - DFS](solutions/depth-first-search/README.md) `Python`
 - [Dijkstra](solutions/dijkstra/README.md) `Python`
+- [Factorial](solutions/factorial/README.md) `Python`
 - [Heapsort](solutions/heapsort/README.md) `C++`
 - [Linked List](solutions/linked-list/README.md) `C++`
 
