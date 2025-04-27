@@ -15,5 +15,7 @@
 ##### `__or__`
 - [Combining objects with the `|` operator](__or__1.py)
 
+##### `__getitem__`
+- [Accessing items using square brackets](__getitem__1.py)
 
 ### [Back](../../README.md)

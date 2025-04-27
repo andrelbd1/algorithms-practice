@@ -15,8 +15,8 @@ def main() -> None:
     f2: Fruit = Fruit(name='Banana', grams=150)
     f3: Fruit = Fruit(name='Apple', grams=100)
 
-    print(f1 == f2)
-    print(f1 == f3)
+    print(f1 == f2)  # False
+    print(f1 == f3)  # True
 
 
 if __name__ == '__main__':
