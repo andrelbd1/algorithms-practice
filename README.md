@@ -28,6 +28,7 @@
 - [Debugging with pdb](python_utils/pdb/README.md)
 - [Decorator](python_utils/decorator/README.md)
 - [Defaultdict](python_utils/defaultdict//README.md)
+- [Dunder Methods](python_utils/dunder_methods/README.md)
 - [Filter](python_utils/filter/README.md)
 - [Format](python_utils/format/README.md)
 - [Function Overloading](python_utils/function_overloading/README.md)
