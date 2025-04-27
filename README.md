@@ -23,6 +23,7 @@
 
 ### Python Tips
 - [Batched](python_utils/batched/README.md)
+- [Cached Session](python_utils/cached_session/README.md)
 - [Currying](python_utils/currying/README.md)
 - [Debugging with pdb](python_utils/pdb/README.md)
 - [Decorator](python_utils/decorator/README.md)
