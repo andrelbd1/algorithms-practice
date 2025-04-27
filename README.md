@@ -22,6 +22,7 @@
 - [State](design_patterns/state/README.md)
 
 ### Python Tips
+- [Batched](python_utils/batched/README.md)
 - [Currying](python_utils/currying/README.md)
 - [Debugging with pdb](python_utils/pdb/README.md)
 - [Decorator](python_utils/decorator/README.md)

@@ -155,3 +155,8 @@ poetry.lock
 # Certificates.
 *.png
 *.pem
+
+T1/
+T2/
+solutions/TODO.md
+test.py
