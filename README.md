@@ -34,6 +34,7 @@
 - [Map](python_utils/map/README.md)
 - [Walrus Operator](python_utils/walrus_operator/README.md)
 - [Yield](python_utils/yield/README.md)
+- [Zip Longest](python_utils/zip_longest/README.md)
 
 ### Problems and Solutions
 - [Flatten List](solutions/flatten-list/README.md) `Python`
