@@ -8,6 +8,7 @@
 
 ##### `__format__`
 - [Custom string formatting](__format__1.py)
+- [Custom string formatting](__format__2.py)
 
 ##### `__repr__`
 - [Custom string representation for debugging and logging](__repr__1.py)

@@ -20,11 +20,11 @@ def main() -> None:
     harry_potter: Book = Book('Harry Potter', 300)
     lord_rings: Book = Book('Lord of the Rings', 800)
 
-    print(f'{harry_potter:caps}')
-    print(f'{harry_potter:time}')
-    print('---------------------')
-    print(f'{lord_rings:caps}')
-    print(f'{lord_rings:time}')
+    print(f'{harry_potter:caps}')  # HARRY POTTER
+    print(f'{harry_potter:time}')  # Read time: 5.00h
+    print('---------------------')  
+    print(f'{lord_rings:caps}')  # LORD OF THE RINGS
+    print(f'{lord_rings:time}')  # Read time: 13.33h
 
 
 if __name__ == '__main__':
