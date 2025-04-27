@@ -19,11 +19,11 @@ class Fruit:
 
 def main() -> None:
     f1: Fruit = Fruit(name='Apple', grams=2500)
-    print(f'{f1:kg}')
-    print(f'{f1:lb}')
-    print(f'{f1:oz}')
-    print(f'{f1:desc}')
-    print(f'{f1:unk}')
+    print(f'{f1:kg}')  # 2.50 kg
+    print(f'{f1:lb}')  # 5.51 lb
+    print(f'{f1:oz}')  # 88.18 oz
+    print(f'{f1:desc}')  # 2500 g of Apple
+    print(f'{f1:unk}')  # Unknown format: unk
 
 
 if __name__ == '__main__':

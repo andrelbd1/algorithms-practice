@@ -9,4 +9,11 @@
 ##### `__format__`
 - [Custom string formatting](__format__1.py)
 
+##### `__repr__`
+- [Custom string representation for debugging and logging](__repr__1.py)
+
+##### `__or__`
+- [Combining objects with the `|` operator](__or__1.py)
+
+
 ### [Back](../../README.md)
