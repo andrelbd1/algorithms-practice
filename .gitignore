@@ -160,3 +160,4 @@ T1/
 T2/
 solutions/TODO.md
 test.py
+*.sqlite
