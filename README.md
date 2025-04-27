@@ -32,6 +32,7 @@
 - [Function Overloading](python_utils/function_overloading/README.md)
 - [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
 - [Map](python_utils/map/README.md)
+- [Starmap](python_utils/starmap/README.md)
 - [Walrus Operator](python_utils/walrus_operator/README.md)
 - [Yield](python_utils/yield/README.md)
 - [Zip Longest](python_utils/zip_longest/README.md)
