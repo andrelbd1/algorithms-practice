@@ -22,7 +22,7 @@ def main() -> None:
 
     print(f'{harry_potter:caps}')  # HARRY POTTER
     print(f'{harry_potter:time}')  # Read time: 5.00h
-    print('---------------------')  
+    print('---------------------')
     print(f'{lord_rings:caps}')  # LORD OF THE RINGS
     print(f'{lord_rings:time}')  # Read time: 13.33h
 
