@@ -1,5 +1,5 @@
 ### Dunder Methods
-`CachedSession` is a class from the `requests_cache` module that extends the functionality of `requests.Session` by adding persistent caching for HTTP requests. It allows you to store responses locally, reducing redundant network calls and improving performance for repeated requests.
+- Dunder methods, short for "double underscore methods" and also known as magic methods, are special methods in Python that allow you to define custom behavior for built-in operations. These methods are surrounded by double underscores (e.g., `__init__`, `__str__`, `__add__`) and enable you to customize object creation, representation, comparison, arithmetic operations, and more. They provide a way to make your classes integrate seamlessly with Python's syntax and built-in features.
 
 #### Examples
 ##### `__eq__`
