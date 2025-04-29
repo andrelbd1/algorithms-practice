@@ -9,6 +9,9 @@
 ##### `__lt__`
 - [Comparison for less-than operation](__lt__1.py)
 
+##### `__add__`
+- [Adding objects with the `+` operator](__add__1.py)
+
 ##### `__format__`
 - [Custom string formatting](__format__1.py)
 - [Custom string formatting](__format__2.py)
