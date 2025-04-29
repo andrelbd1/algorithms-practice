@@ -6,6 +6,9 @@
 - [Equality check for all attributes](__eq__1.py)
 - [Equality check for a single attribute](__eq__2.py)
 
+##### `__lt__`
+- [Comparison for less-than operation](__lt__1.py)
+
 ##### `__format__`
 - [Custom string formatting](__format__1.py)
 - [Custom string formatting](__format__2.py)
