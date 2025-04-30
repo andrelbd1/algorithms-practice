@@ -1,18 +1,18 @@
-from typing import Final
+import requests
+import requests_cache
 from dataclasses import dataclass
-from requests_cache import CachedSession
+from requests import Response
+from typing import Final
 
 
 URL: Final = 'https://poetrydb.org'  # https://github.com/thundercomb/poetrydb#readme
 
-session = CachedSession(
-    cache_name='cache/poetry_cache/example_1',
-    backend='sqlite',
-    expire_after=3600,
-    allowable_methods=['GET'],
-    allowable_codes=(200, 404),
-    old_cache=True,
-)
+requests_cache.install_cache('cache/poetry_cache/example_2', 
+                             expire_after=3600,
+                             backend='sqlite',
+                             allowable_methods=['GET'],
+                             allowable_codes=(200, 404),
+                             old_cache=True)
 
 
 @dataclass
@@ -24,7 +24,8 @@ class Poem:
 
 def get_poem(title: str) -> Poem:
     try:
-        response = session.get(f'{URL}/title/{title}/author,title,linecount.json')
+        response: Response = requests.get(f'{URL}/title/{title}/author,title,linecount.json')
+        response.raise_for_status()  # Raise an error for bad responses
         result: list = response.json()
         if not result:
             raise ValueError('No results found')
