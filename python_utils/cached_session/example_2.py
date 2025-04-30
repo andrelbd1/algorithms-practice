@@ -7,7 +7,7 @@ from typing import Final
 
 URL: Final = 'https://poetrydb.org'  # https://github.com/thundercomb/poetrydb#readme
 
-requests_cache.install_cache('cache/poetry_cache/example_2', 
+requests_cache.install_cache('cache/poetry_cache/example_2',
                              expire_after=3600,
                              backend='sqlite',
                              allowable_methods=['GET'],
