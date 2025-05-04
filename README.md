@@ -12,32 +12,32 @@
 - [Linked List](solutions/linked-list/README.md) `C++`
 
 ### [Design Patterns](https://www.youtube.com/playlist?list=PLQhuS49baMUmiygUlBJexyHxpSghlId7g)
-- [Singleton](design_patterns/singleton/README.md)
-- [Factory](design_patterns/factory/README.md)
-- [Façade](design_patterns/facade/README.md)
-- [Proxy](design_patterns/proxy/README.md)
-- [Observer](design_patterns/observer/README.md)
-- [Command](design_patterns/command/README.md)
-- [Template Method](design_patterns/template_method/README.md)
-- [State](design_patterns/state/README.md)
+- [Singleton](design_patterns/singleton/README.md) `Python`
+- [Factory](design_patterns/factory/README.md) `Python`
+- [Façade](design_patterns/facade/README.md) `Python`
+- [Proxy](design_patterns/proxy/README.md) `Python`
+- [Observer](design_patterns/observer/README.md) `Python`
+- [Command](design_patterns/command/README.md) `Python`
+- [Template Method](design_patterns/template_method/README.md) `Python`
+- [State](design_patterns/state/README.md) `Python`
 
 ### Python Tips
-- [Batched](python_utils/batched/README.md)
-- [Cached Session](python_utils/cached_session/README.md)
-- [Currying](python_utils/currying/README.md)
-- [Debugging with pdb](python_utils/pdb/README.md)
-- [Decorator](python_utils/decorator/README.md)
-- [Defaultdict](python_utils/defaultdict//README.md)
-- [Dunder Methods](python_utils/dunder_methods/README.md)
-- [Filter](python_utils/filter/README.md)
-- [Function Overloading](python_utils/function_overloading/README.md)
-- [Itemgetter](python_utils/itemgetter/README.md)
-- [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html)
-- [Map](python_utils/map/README.md)
-- [Starmap](python_utils/starmap/README.md)
-- [Walrus Operator](python_utils/walrus_operator/README.md)
-- [Yield](python_utils/yield/README.md)
-- [Zip Longest](python_utils/zip_longest/README.md)
+- [Batched](python_utils/batched/README.md) `Python`
+- [Cached Session](python_utils/cached_session/README.md) `Python`
+- [Currying](python_utils/currying/README.md) `Python`
+- [Debugging with pdb](python_utils/pdb/README.md) `Python`
+- [Decorator](python_utils/decorator/README.md) `Python`
+- [Defaultdict](python_utils/defaultdict//README.md) `Python`
+- [Dunder Methods](python_utils/dunder_methods/README.md) `Python`
+- [Filter](python_utils/filter/README.md) `Python`
+- [Function Overloading](python_utils/function_overloading/README.md) `Python`
+- [Itemgetter](python_utils/itemgetter/README.md) `Python`
+- [List Comprehension](https://htmlpreview.github.io/?https://github.com/andrelbd1/algorithms-practice/blob/master/python_utils/list_comprehension/list_comprehension.html) `Python`
+- [Map](python_utils/map/README.md) `Python`
+- [Starmap](python_utils/starmap/README.md) `Python`
+- [Walrus Operator](python_utils/walrus_operator/README.md) `Python`
+- [Yield](python_utils/yield/README.md) `Python`
+- [Zip Longest](python_utils/zip_longest/README.md) `Python`
 
 ### Problems and Solutions
 - [Flatten List](solutions/flatten-list/README.md) `Python`
