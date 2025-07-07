@@ -24,6 +24,7 @@
 ### Python Tips
 - [Batched](python_utils/batched/README.md) `Python`
 - [Cached Session](python_utils/cached_session/README.md) `Python`
+- [Chain Map](python_utils/chain_map/README.md) `Python`
 - [Currying](python_utils/currying/README.md) `Python`
 - [Debugging with pdb](python_utils/pdb/README.md) `Python`
 - [Decorator](python_utils/decorator/README.md) `Python`
